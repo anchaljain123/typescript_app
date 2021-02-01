@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    // "target": "es6",
+    "target": "es5",
+    "pretty": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    // "outDir": "./dist",
+    "outDir": "./build/",
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    // "noImplicitAny": false
+    "noImplicitAny": true
+  },
+  "exclude": ["tests", "node_modules"],
+  "typesRoots": ["./types"],
+  "include": [
+    "src/components/index.tsx"
+  ]
+}
